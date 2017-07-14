@@ -7,7 +7,8 @@
                  [compojure "1.6.0"]
                  [ring/ring-defaults "0.3.0"]
                  [ring "1.6.1"]
-                 [org.clojars.jaakkos/clj-aws-xray "0.0.4"]]
+                 [org.clojars.jaakkos/clj-aws-xray "0.0.4"]
+                 [hiccup "1.0.5"]]
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring/ring-mock "0.3.0"]]}})
